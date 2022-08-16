@@ -95,7 +95,7 @@ body{
 }
 @font-face {
     font-family: Helvetica-1;
-    src: url(./font/HelveticaNowText-Bold.ttf);
+    src: url(../font/HelveticaNowText-Bold.ttf);
 }
 .content-head{
     font-family: Helvetica-1;
@@ -104,7 +104,7 @@ body{
 }
 @font-face {
     font-family: Helvetica-2;
-    src: url(./font/HelveticaNowDisplay-Bold.ttf);
+    src: url(../font/HelveticaNowDisplay-Bold.ttf);
 }
 .content-main{
     font-family: Helvetica-2;
@@ -194,7 +194,7 @@ body{
 }
 @font-face {
     font-family: Helvetica-3;
-    src: url(./font/HelveticaNowText-Regular.ttf);
+    src: url(../font/HelveticaNowText-Regular.ttf);
 }
 .btn-viewmore{
     width: 112px;
