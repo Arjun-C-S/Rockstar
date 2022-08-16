@@ -1,0 +1,323 @@
+body{
+    margin: 0;
+    margin-top: 60px;
+    background-color: black;
+}
+.row>* {
+    padding: 0;    
+}
+.carouselExampleIndicators{
+    background-color: white;
+}
+.carousel-content1{
+    width: 100%;
+    background-color: black;
+    height: 100%;
+    padding-left: 11%;
+    padding-right: 15%;
+    padding-top: 16%;
+    color: white;
+}
+
+@media only screen and (min-width: 1440px) {
+    /* styles for browsers larger than 1440px; */
+    .carousel-indicators {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        left: 26.5%;
+        z-index: 2;
+        display: flex;
+        justify-content: end;
+        padding: 0;
+        margin-right: 42%;
+        margin-bottom: 5rem;
+        margin-left: 15%;
+        list-style: none;
+    }
+}
+@media only screen and (max-width: 1000px) {
+    .carousel-indicators {
+        display: none;
+    }
+}
+.carousel-indicators [data-bs-target]{
+    background: white;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    height: 4px;
+    max-width: 5rem;
+    outline: none;
+    padding: 0;
+    transition: background .3s;
+    width: 100%;
+    margin-right: 6px;
+}
+.header{
+    width: 100%;
+    height: 60px;
+    background-color: black;
+}
+#site-header {
+	position: fixed;
+	top: 0;
+	z-index: 1;
+	transition: all .3s ease;
+}
+#site-header.hide {
+	top: -60px;
+}
+.fa-bars{
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+}
+.header-content{
+    padding-top: 14px;
+    text-align: end;
+}
+.logo-pos{
+    text-align: center;
+}
+.logo{
+    width: 74px;
+    height: 36px;
+    margin-top: 12px;
+    cursor: pointer;
+}
+.pro-pic{
+    width: 74px;
+    height: 36px;
+    margin-top: 12px;
+    margin-left: -36px;
+    cursor: pointer;
+}
+@font-face {
+    font-family: Helvetica-1;
+    src: url(/font/HelveticaNowText-Bold.ttf);
+}
+.content-head{
+    font-family: Helvetica-1;
+    font-size: 16px;
+    letter-spacing: var(--letter-spacing-h,-.025em);
+}
+@font-face {
+    font-family: Helvetica-2;
+    src: url(/font/HelveticaNowDisplay-Bold.ttf);
+}
+.content-main{
+    font-family: Helvetica-2;
+    font-size: 39px;
+    letter-spacing: var(--letter-spacing-h,-.025em);
+}
+.btn-watch-now{
+    width: 247px;
+    height: 64px;
+    font-size: 20px;
+    font-family: Helvetica-1;
+    background: transparent;
+    font-weight: 700;
+    line-height: 100%;
+    padding: 1rem 3rem;
+    transition: all .2s ease;
+    color: white;
+    border: 1px solid;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+.btn-watch-now:hover{
+    background: #fcaf17;
+    border-color: #fcaf17;
+    color: #161616;
+}
+.newswire {
+    padding-left: 5.5%;
+    padding-right: 4%;
+    padding-top: 7%;
+    background-color: #0b0b0b;
+}
+.main-card{
+    background-color: black;
+    border: 1px solid #282828;
+}
+.feature-card{
+    background-color: black;
+    border: 0;
+}
+.new-cayo{
+    padding-bottom: 2.2rem;
+}
+.benefactor{
+    padding-bottom: 4.6rem;
+}
+.card-text:last-child {
+    margin-bottom: 0;
+    --line-height-h: 1.3;
+    color: white;
+    font-family: Helvetica-2;
+    font-size: 25px;;
+    letter-spacing: -0.025em;
+}
+.card{
+    cursor: pointer;
+}
+.card-body {
+    flex: 1 1 auto;
+    padding: 1rem 2.5rem 3rem;
+}
+.card-heading{
+    color: white;
+    font-family: Helvetica-1;
+    letter-spacing: -0.025em;
+}
+.newswire-title{
+    color: white;
+    font-family: Helvetica-2;
+    font-size: 32px;
+    letter-spacing: -0.025em;
+}
+.card-heading-date{
+    color: #969696;
+    font-family: Helvetica-2;
+    font-weight: 400;
+    line-height: 1.6;
+    opacity: .65;
+    letter-spacing: -0.025em;
+    padding-left: 15px;
+}
+.red-dead{
+    padding-bottom: 2.3rem;
+}
+.criminal-enterprise{
+    padding-bottom: 2.3rem;
+}
+@font-face {
+    font-family: Helvetica-3;
+    src: url(/font/HelveticaNowText-Regular.ttf);
+}
+.btn-viewmore{
+    width: 112px;
+    height: 36px;
+    font-family: Helvetica-3;
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: -0.025em;
+    background-color: transparent;
+    color: white;
+    border: 0;
+}
+.btn-viewmore-border{
+    width: 115px;
+    height: 38px;
+    /*background-color: #fcaf17;*/
+    border-radius: 7px;
+    border-bottom: 5px solid  #fcaf17;
+}
+.btn-viewmore-border:hover{
+    background-color:  #fcaf17;
+    transition: .5s;
+}
+.btn-viewmore:hover{
+    color: black;
+    transition: .5s;
+}
+.featured-games{
+    padding-left: 5.5%;
+    padding-right: 4%;
+    padding-top: 7%;
+    background-color: #0b0b0b;
+}
+.games-title{
+    color: white;
+    font-family: Helvetica-2;
+    font-size: 32px;
+    letter-spacing: -0.025em;
+}
+.footer{
+    width: 100%;
+    background-color: black;
+    height: 390px;
+    padding-top: 5%;
+    padding-left: 6%;
+    padding-right: 5%;
+    padding-bottom: 6%;
+    color: white;
+}
+.ft-contact{
+    font-family:  Helvetica-3;
+    font-size: 22px;
+}
+.ft-row2{
+    padding-top: 5em;
+    font-family: Helvetica-3;
+    font-size: 12px;
+    color: #e8e8e8;
+    margin-right: -23px;
+}
+.ft-icons{
+    align-self: flex-end;
+    text-align: end;
+    font-size: 21px;
+    margin-left: -30px;
+}
+.ft-space-middle{
+    margin-left: 100px;
+}
+.ft-row3{
+    padding-top: 5em;
+    font-family: Helvetica-2;
+    font-size: 15px;
+    color: #e8e8e8;
+    margin-right: -23px;
+}
+.paris{
+    margin-left: 3px;
+}
+.london{
+    margin-left: 7px;
+}
+.bogota{
+    margin-left: -14px;
+}
+.ft-code{
+    align-self: flex-end;
+    text-align: end;
+}
+.ft-english{
+    text-align: center;
+    margin-left: 58px;
+}
+.fa-globe{
+    padding-right: 10px;
+}
+.fa-up-right-from-square{
+    font-size: 15px;
+    font-weight: 300;
+    float: right;
+}
+.ft-career{
+    width: 93px;
+}
+.ft-subscribe{
+    width: 126px;
+    margin-left: -93px;
+}
+.ft-contact:hover{
+    color: #fcaf17;
+    transition: .5s;
+    cursor: pointer;
+}
+.ft-english:hover{
+    color: white;
+}
+.ft-row2:hover{
+    color: #fcaf17;
+    transition: .5s;
+    cursor: pointer;
+}
+.ft-icons:hover{
+    color: #fcaf17;
+    transition: .5s;
+    cursor: pointer;
+}
